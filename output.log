@@ -1,0 +1,600 @@
+nohup: ignoring input
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------------------< com.bitejiuyeke:forum >------------------------
+[INFO] Building forum 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> spring-boot-maven-plugin:2.7.6:run (default-cli) > test-compile @ forum >>>
+[INFO] 
+[INFO] --- maven-resources-plugin:3.2.0:resources (default-resources) @ forum ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] Copying 1 resource
+[INFO] Copying 1176 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.10.1:compile (default-compile) @ forum ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:3.2.0:testResources (default-testResources) @ forum ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] skip non existing resourceDirectory /home/qzr/bitproject/论坛系统/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.10.1:testCompile (default-testCompile) @ forum ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] <<< spring-boot-maven-plugin:2.7.6:run (default-cli) < test-compile @ forum <<<
+[INFO] 
+[INFO] 
+[INFO] --- spring-boot-maven-plugin:2.7.6:run (default-cli) @ forum ---
+[INFO] Attaching agents: []
+17:28:03.266 [Thread-0] DEBUG org.springframework.boot.devtools.restart.classloader.RestartClassLoader - Created RestartClassLoader org.springframework.boot.devtools.restart.classloader.RestartClassLoader@52a2ca5a
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+[32m :: Spring Boot :: [39m              [2m (v2.7.6)[0;39m
+
+[2m2025-12-15 17:28:03[0;39m [32m INFO[0;39m [35m419994[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mcom.bitejiuyeke.forum.ForumApplication  [0;39m [2m:[0;39m Starting ForumApplication using Java 1.8.0_472 on linux with PID 419994 (/home/qzr/bitproject/论坛系统/target/classes started by qzr in /home/qzr/bitproject/论坛系统)
+[2m2025-12-15 17:28:03[0;39m [32m INFO[0;39m [35m419994[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mcom.bitejiuyeke.forum.ForumApplication  [0;39m [2m:[0;39m No active profile set, falling back to 1 default profile: "default"
+[2m2025-12-15 17:28:03[0;39m [32m INFO[0;39m [35m419994[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.e.DevToolsPropertyDefaultsPostProcessor[0;39m [2m:[0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2m2025-12-15 17:28:03[0;39m [32m INFO[0;39m [35m419994[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.e.DevToolsPropertyDefaultsPostProcessor[0;39m [2m:[0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2m2025-12-15 17:28:05[0;39m [32m INFO[0;39m [35m419994[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 58080 (http)
+[2m2025-12-15 17:28:05[0;39m [32m INFO[0;39m [35m419994[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.apache.catalina.core.StandardService  [0;39m [2m:[0;39m Starting service [Tomcat]
+[2m2025-12-15 17:28:05[0;39m [32m INFO[0;39m [35m419994[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36morg.apache.catalina.core.StandardEngine [0;39m [2m:[0;39m Starting Servlet engine: [Apache Tomcat/9.0.69]
+[2m2025-12-15 17:28:05[0;39m [32m INFO[0;39m [35m419994[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring embedded WebApplicationContext
+[2m2025-12-15 17:28:05[0;39m [32m INFO[0;39m [35m419994[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mw.s.c.ServletWebServerApplicationContext[0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 1410 ms
+[2m2025-12-15 17:28:05[0;39m [32m INFO[0;39m [35m419994[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mc.a.d.s.b.a.DruidDataSourceAutoConfigure[0;39m [2m:[0;39m Init DruidDataSource
+[2m2025-12-15 17:28:05[0;39m [32m INFO[0;39m [35m419994[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mcom.alibaba.druid.pool.DruidDataSource  [0;39m [2m:[0;39m {dataSource-1} inited
+[2m2025-12-15 17:28:05[0;39m [32m INFO[0;39m [35m419994[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.a.e.web.EndpointLinksResolver     [0;39m [2m:[0;39m Exposing 1 endpoint(s) beneath base path '/actuator'
+[2m2025-12-15 17:28:06[0;39m [32m INFO[0;39m [35m419994[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m [2m:[0;39m LiveReload server is running on port 35729
+[2m2025-12-15 17:28:06[0;39m [32m INFO[0;39m [35m419994[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.a.w.s.WelcomePageHandlerMapping   [0;39m [2m:[0;39m Adding welcome page: class path resource [static/index.html]
+[2m2025-12-15 17:28:06[0;39m [32m INFO[0;39m [35m419994[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 58080 (http) with context path ''
+[2m2025-12-15 17:28:06[0;39m [33m WARN[0;39m [35m419994[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36md.s.r.o.OperationImplicitParameterReader[0;39m [2m:[0;39m Unable to interpret the implicit parameter configuration with dataType: , dataTypeClass: class java.lang.Void
+[2m2025-12-15 17:28:06[0;39m [33m WARN[0;39m [35m419994[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36md.s.r.o.OperationImplicitParameterReader[0;39m [2m:[0;39m Unable to interpret the implicit parameter configuration with dataType: , dataTypeClass: class java.lang.Void
+[2m2025-12-15 17:28:06[0;39m [32m INFO[0;39m [35m419994[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mcom.bitejiuyeke.forum.ForumApplication  [0;39m [2m:[0;39m Started ForumApplication in 3.401 seconds (JVM running for 3.82)
+[2m2025-12-15 17:28:37[0;39m [32m INFO[0;39m [35m419994[0;39m [2m---[0;39m [2m[io-58080-exec-1][0;39m [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2m2025-12-15 17:28:37[0;39m [32m INFO[0;39m [35m419994[0;39m [2m---[0;39m [2m[io-58080-exec-1][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Initializing Servlet 'dispatcherServlet'
+[2m2025-12-15 17:28:37[0;39m [32m INFO[0;39m [35m419994[0;39m [2m---[0;39m [2m[io-58080-exec-1][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Completed initialization in 2 ms
+[2m2025-12-15 17:29:02[0;39m [32m INFO[0;39m [35m419994[0;39m [2m---[0;39m [2m[io-58080-exec-6][0;39m [36mc.b.forum.services.impl.UserServiceImpl [0;39m [2m:[0;39m 登录成功, username = qzr
+[2m2025-12-15 17:29:04[0;39m [32m INFO[0;39m [35m419994[0;39m [2m---[0;39m [2m[io-58080-exec-6][0;39m [36mc.b.forum.controller.BoardController    [0;39m [2m:[0;39m 首页版块个数为：9
+[2m2025-12-15 17:30:19[0;39m [32m INFO[0;39m [35m419994[0;39m [2m---[0;39m [2m[io-58080-exec-2][0;39m [36mc.b.f.services.impl.ArticleServiceImpl  [0;39m [2m:[0;39m code = 0, message = 操作成功. , user id = 1, board id = 3, article id = 11发帖成功
+[2m2025-12-15 17:31:11[0;39m [32m INFO[0;39m [35m419994[0;39m [2m---[0;39m [2m[io-58080-exec-2][0;39m [36mc.b.f.services.impl.ArticleServiceImpl  [0;39m [2m:[0;39m code = 0, message = 操作成功. , user id = 1, board id = 4, article id = 12发帖成功
+[2m2025-12-15 17:31:19[0;39m [32m INFO[0;39m [35m419994[0;39m [2m---[0;39m [2m[io-58080-exec-4][0;39m [36mc.b.f.services.impl.ArticleServiceImpl  [0;39m [2m:[0;39m 删除帖子成功, article id = 5, user id = 1.
+[2m2025-12-15 17:31:26[0;39m [32m INFO[0;39m [35m419994[0;39m [2m---[0;39m [2m[io-58080-exec-5][0;39m [36mc.b.forum.services.impl.UserServiceImpl [0;39m [2m:[0;39m 登录成功, username = qzr
+[2m2025-12-15 17:31:28[0;39m [32m INFO[0;39m [35m419994[0;39m [2m---[0;39m [2m[io-58080-exec-6][0;39m [36mc.b.forum.controller.BoardController    [0;39m [2m:[0;39m 首页版块个数为：9
+[2m2025-12-15 17:32:26[0;39m [32m INFO[0;39m [35m419994[0;39m [2m---[0;39m [2m[io-58080-exec-2][0;39m [36mc.b.f.services.impl.ArticleServiceImpl  [0;39m [2m:[0;39m code = 0, message = 操作成功. , user id = 1, board id = 6, article id = 13发帖成功
+[2m2025-12-15 17:33:43[0;39m [32m INFO[0;39m [35m419994[0;39m [2m---[0;39m [2m[io-58080-exec-7][0;39m [36mc.b.forum.controller.BoardController    [0;39m [2m:[0;39m 首页版块个数为：9
+[2m2025-12-15 17:36:29[0;39m [32m INFO[0;39m [35m419994[0;39m [2m---[0;39m [2m[io-58080-exec-5][0;39m [36mc.b.forum.services.impl.UserServiceImpl [0;39m [2m:[0;39m 登录成功, username = qzr
+[2m2025-12-15 17:36:31[0;39m [32m INFO[0;39m [35m419994[0;39m [2m---[0;39m [2m[io-58080-exec-7][0;39m [36mc.b.forum.controller.BoardController    [0;39m [2m:[0;39m 首页版块个数为：9
+[2m2025-12-15 17:37:06[0;39m [32m INFO[0;39m [35m419994[0;39m [2m---[0;39m [2m[io-58080-exec-8][0;39m [36mc.b.forum.services.impl.UserServiceImpl [0;39m [2m:[0;39m 登录成功, username = qzr
+[2m2025-12-15 17:37:09[0;39m [32m INFO[0;39m [35m419994[0;39m [2m---[0;39m [2m[io-58080-exec-6][0;39m [36mc.b.forum.controller.BoardController    [0;39m [2m:[0;39m 首页版块个数为：9
+[2m2025-12-15 17:53:53[0;39m [32m INFO[0;39m [35m419994[0;39m [2m---[0;39m [2m[io-58080-exec-4][0;39m [36mc.b.forum.services.impl.UserServiceImpl [0;39m [2m:[0;39m 新用户成功. username = Alora. 
+[2m2025-12-15 17:54:09[0;39m [32m INFO[0;39m [35m419994[0;39m [2m---[0;39m [2m[io-58080-exec-4][0;39m [36mc.b.forum.services.impl.UserServiceImpl [0;39m [2m:[0;39m 登录成功, username = Alora
+[2m2025-12-15 17:54:16[0;39m [32m INFO[0;39m [35m419994[0;39m [2m---[0;39m [2m[io-58080-exec-4][0;39m [36mc.b.forum.controller.BoardController    [0;39m [2m:[0;39m 首页版块个数为：9
+org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.handleNoMatch(RequestMappingInfoHandlerMapping.java:256)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lookupHandlerMethod(AbstractHandlerMethodMapping.java:442)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.getHandlerInternal(AbstractHandlerMethodMapping.java:383)
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.getHandlerInternal(RequestMappingInfoHandlerMapping.java:125)
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.getHandlerInternal(RequestMappingInfoHandlerMapping.java:67)
+	at org.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler(AbstractHandlerMapping.java:498)
+	at org.springframework.web.servlet.DispatcherServlet.getHandler(DispatcherServlet.java:1265)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1047)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:964)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:670)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:779)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:96)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:891)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1784)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+[2m2025-12-15 17:57:43[0;39m [31mERROR[0;39m [35m419994[0;39m [2m---[0;39m [2m[io-58080-exec-2][0;39m [36mc.b.f.exception.GlobalExceptionHandler  [0;39m [2m:[0;39m Request method 'GET' not supported
+[2m2025-12-15 17:57:43[0;39m [33m WARN[0;39m [35m419994[0;39m [2m---[0;39m [2m[io-58080-exec-2][0;39m [36m.m.m.a.ExceptionHandlerExceptionResolver[0;39m [2m:[0;39m Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+[2m2025-12-15 18:35:53[0;39m [32m INFO[0;39m [35m419994[0;39m [2m---[0;39m [2m[io-58080-exec-6][0;39m [36mc.b.forum.services.impl.UserServiceImpl [0;39m [2m:[0;39m 登录成功, username = qzr
+[2m2025-12-15 18:35:55[0;39m [32m INFO[0;39m [35m419994[0;39m [2m---[0;39m [2m[io-58080-exec-7][0;39m [36mc.b.forum.controller.BoardController    [0;39m [2m:[0;39m 首页版块个数为：9
+[2m2025-12-15 22:49:58[0;39m [32m INFO[0;39m [35m419994[0;39m [2m---[0;39m [2m[io-58080-exec-5][0;39m [36mc.b.forum.services.impl.UserServiceImpl [0;39m [2m:[0;39m 登录成功, username = Alora
+[2m2025-12-15 22:50:01[0;39m [32m INFO[0;39m [35m419994[0;39m [2m---[0;39m [2m[io-58080-exec-8][0;39m [36mc.b.forum.controller.BoardController    [0;39m [2m:[0;39m 首页版块个数为：9
+[2m2025-12-15 22:50:20[0;39m [32m INFO[0;39m [35m419994[0;39m [2m---[0;39m [2m[o-58080-exec-10][0;39m [36mc.b.forum.controller.BoardController    [0;39m [2m:[0;39m 首页版块个数为：9
+[2m2025-12-16 09:53:44[0;39m [32m INFO[0;39m [35m419994[0;39m [2m---[0;39m [2m[o-58080-exec-10][0;39m [36mc.b.forum.services.impl.UserServiceImpl [0;39m [2m:[0;39m 登录成功, username = qzr
+[2m2025-12-16 09:53:46[0;39m [32m INFO[0;39m [35m419994[0;39m [2m---[0;39m [2m[io-58080-exec-2][0;39m [36mc.b.forum.controller.BoardController    [0;39m [2m:[0;39m 首页版块个数为：9
+[2m2025-12-16 11:19:41[0;39m [32m INFO[0;39m [35m419994[0;39m [2m---[0;39m [2m[io-58080-exec-5][0;39m [36mc.b.forum.services.impl.UserServiceImpl [0;39m [2m:[0;39m 登录成功, username = Master
+[2m2025-12-16 11:19:44[0;39m [32m INFO[0;39m [35m419994[0;39m [2m---[0;39m [2m[io-58080-exec-9][0;39m [36mc.b.forum.controller.BoardController    [0;39m [2m:[0;39m 首页版块个数为：9
+[2m2025-12-16 11:20:36[0;39m [32m INFO[0;39m [35m419994[0;39m [2m---[0;39m [2m[io-58080-exec-9][0;39m [36mc.b.f.services.impl.ArticleServiceImpl  [0;39m [2m:[0;39m code = 0, message = 操作成功. , user id = 3, board id = 1, article id = 14发帖成功
+[2m2025-12-16 11:21:21[0;39m [32m INFO[0;39m [35m419994[0;39m [2m---[0;39m [2m[io-58080-exec-3][0;39m [36mc.b.forum.services.impl.UserServiceImpl [0;39m [2m:[0;39m 登录成功, username = Alora
+[2m2025-12-16 11:21:23[0;39m [32m INFO[0;39m [35m419994[0;39m [2m---[0;39m [2m[io-58080-exec-7][0;39m [36mc.b.forum.controller.BoardController    [0;39m [2m:[0;39m 首页版块个数为：9
+[2m2025-12-16 11:34:06[0;39m [32m INFO[0;39m [35m419994[0;39m [2m---[0;39m [2m[io-58080-exec-3][0;39m [36mc.b.forum.services.impl.UserServiceImpl [0;39m [2m:[0;39m 新用户成功. username = long. 
+[2m2025-12-16 11:34:06[0;39m [32m INFO[0;39m [35m419994[0;39m [2m---[0;39m [2m[o-58080-exec-10][0;39m [36mc.b.forum.services.impl.UserServiceImpl [0;39m [2m:[0;39m 登录成功, username = qzr
+[2m2025-12-16 11:34:10[0;39m [32m INFO[0;39m [35m419994[0;39m [2m---[0;39m [2m[io-58080-exec-5][0;39m [36mc.b.forum.controller.BoardController    [0;39m [2m:[0;39m 首页版块个数为：9
+[2m2025-12-16 11:34:20[0;39m [32m INFO[0;39m [35m419994[0;39m [2m---[0;39m [2m[io-58080-exec-8][0;39m [36mc.b.forum.services.impl.UserServiceImpl [0;39m [2m:[0;39m 登录成功, username = long
+[2m2025-12-16 11:34:23[0;39m [32m INFO[0;39m [35m419994[0;39m [2m---[0;39m [2m[io-58080-exec-1][0;39m [36mc.b.forum.controller.BoardController    [0;39m [2m:[0;39m 首页版块个数为：9
+[2m2025-12-16 11:34:56[0;39m [32m INFO[0;39m [35m419994[0;39m [2m---[0;39m [2m[io-58080-exec-6][0;39m [36mc.b.forum.services.impl.UserServiceImpl [0;39m [2m:[0;39m 新用户成功. username = bybit. 
+[2m2025-12-16 11:35:05[0;39m [32m INFO[0;39m [35m419994[0;39m [2m---[0;39m [2m[io-58080-exec-4][0;39m [36mc.b.forum.services.impl.UserServiceImpl [0;39m [2m:[0;39m 登录成功, username = bybit
+[2m2025-12-16 11:35:09[0;39m [32m INFO[0;39m [35m419994[0;39m [2m---[0;39m [2m[io-58080-exec-7][0;39m [36mc.b.forum.controller.BoardController    [0;39m [2m:[0;39m 首页版块个数为：9
+[2m2025-12-16 11:35:41[0;39m [32m INFO[0;39m [35m419994[0;39m [2m---[0;39m [2m[io-58080-exec-9][0;39m [36mc.b.forum.controller.BoardController    [0;39m [2m:[0;39m 首页版块个数为：9
+[2m2025-12-16 11:36:09[0;39m [32m INFO[0;39m [35m419994[0;39m [2m---[0;39m [2m[io-58080-exec-2][0;39m [36mc.b.forum.controller.BoardController    [0;39m [2m:[0;39m 首页版块个数为：9
+[2m2025-12-16 11:36:19[0;39m [32m INFO[0;39m [35m419994[0;39m [2m---[0;39m [2m[io-58080-exec-8][0;39m [36mc.b.forum.controller.BoardController    [0;39m [2m:[0;39m 首页版块个数为：9
+[2m2025-12-16 11:36:40[0;39m [32m INFO[0;39m [35m419994[0;39m [2m---[0;39m [2m[io-58080-exec-2][0;39m [36mc.b.forum.controller.BoardController    [0;39m [2m:[0;39m 首页版块个数为：9
+[2m2025-12-16 11:36:49[0;39m [32m INFO[0;39m [35m419994[0;39m [2m---[0;39m [2m[io-58080-exec-3][0;39m [36mc.b.f.s.impl.ArticleReplyServiceImpl    [0;39m [2m:[0;39m 回复成功, article id = 11, user id = 6
+[2m2025-12-16 11:36:51[0;39m [32m INFO[0;39m [35m419994[0;39m [2m---[0;39m [2m[io-58080-exec-3][0;39m [36mc.b.forum.controller.BoardController    [0;39m [2m:[0;39m 首页版块个数为：9
+org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.handleNoMatch(RequestMappingInfoHandlerMapping.java:256)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lookupHandlerMethod(AbstractHandlerMethodMapping.java:442)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.getHandlerInternal(AbstractHandlerMethodMapping.java:383)
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.getHandlerInternal(RequestMappingInfoHandlerMapping.java:125)
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.getHandlerInternal(RequestMappingInfoHandlerMapping.java:67)
+	at org.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler(AbstractHandlerMapping.java:498)
+	at org.springframework.web.servlet.DispatcherServlet.getHandler(DispatcherServlet.java:1265)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1047)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:964)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:670)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:779)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:96)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:891)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1784)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+[2m2025-12-16 11:38:17[0;39m [31mERROR[0;39m [35m419994[0;39m [2m---[0;39m [2m[o-58080-exec-10][0;39m [36mc.b.f.exception.GlobalExceptionHandler  [0;39m [2m:[0;39m Request method 'GET' not supported
+[2m2025-12-16 11:38:17[0;39m [33m WARN[0;39m [35m419994[0;39m [2m---[0;39m [2m[o-58080-exec-10][0;39m [36m.m.m.a.ExceptionHandlerExceptionResolver[0;39m [2m:[0;39m Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+[2m2025-12-16 11:39:29[0;39m [32m INFO[0;39m [35m419994[0;39m [2m---[0;39m [2m[io-58080-exec-4][0;39m [36mc.b.f.services.impl.ArticleServiceImpl  [0;39m [2m:[0;39m code = 0, message = 操作成功. , user id = 5, board id = 4, article id = 15发帖成功
+[2m2025-12-16 11:40:08[0;39m [32m INFO[0;39m [35m419994[0;39m [2m---[0;39m [2m[io-58080-exec-2][0;39m [36mc.b.f.s.impl.ArticleReplyServiceImpl    [0;39m [2m:[0;39m 回复成功, article id = 14, user id = 5
+[2m2025-12-16 11:41:43[0;39m [32m INFO[0;39m [35m419994[0;39m [2m---[0;39m [2m[io-58080-exec-1][0;39m [36mc.b.forum.services.impl.UserServiceImpl [0;39m [2m:[0;39m 登录成功, username = Alora
+[2m2025-12-16 11:41:45[0;39m [32m INFO[0;39m [35m419994[0;39m [2m---[0;39m [2m[io-58080-exec-7][0;39m [36mc.b.forum.controller.BoardController    [0;39m [2m:[0;39m 首页版块个数为：9
+[2m2025-12-16 11:46:01[0;39m [32m INFO[0;39m [35m419994[0;39m [2m---[0;39m [2m[io-58080-exec-1][0;39m [36mc.b.forum.services.impl.UserServiceImpl [0;39m [2m:[0;39m 登录成功, username = qzr
+[2m2025-12-16 11:46:03[0;39m [32m INFO[0;39m [35m419994[0;39m [2m---[0;39m [2m[io-58080-exec-4][0;39m [36mc.b.forum.controller.BoardController    [0;39m [2m:[0;39m 首页版块个数为：9
+[2m2025-12-16 11:46:46[0;39m [32m INFO[0;39m [35m419994[0;39m [2m---[0;39m [2m[io-58080-exec-8][0;39m [36mc.b.forum.controller.BoardController    [0;39m [2m:[0;39m 首页版块个数为：9
+[2m2025-12-16 11:47:36[0;39m [32m INFO[0;39m [35m419994[0;39m [2m---[0;39m [2m[io-58080-exec-7][0;39m [36mc.b.forum.controller.BoardController    [0;39m [2m:[0;39m 首页版块个数为：9
+[2m2025-12-16 11:47:41[0;39m [32m INFO[0;39m [35m419994[0;39m [2m---[0;39m [2m[io-58080-exec-1][0;39m [36mc.b.forum.controller.BoardController    [0;39m [2m:[0;39m 首页版块个数为：9
+[2m2025-12-16 11:47:51[0;39m [32m INFO[0;39m [35m419994[0;39m [2m---[0;39m [2m[io-58080-exec-9][0;39m [36mc.b.f.services.impl.ArticleServiceImpl  [0;39m [2m:[0;39m code = 0, message = 操作成功. , user id = 4, board id = 1, article id = 16发帖成功
+[2m2025-12-16 11:48:19[0;39m [32m INFO[0;39m [35m419994[0;39m [2m---[0;39m [2m[io-58080-exec-7][0;39m [36mc.b.forum.controller.BoardController    [0;39m [2m:[0;39m 首页版块个数为：9
+[2m2025-12-16 11:49:57[0;39m [32m INFO[0;39m [35m419994[0;39m [2m---[0;39m [2m[o-58080-exec-10][0;39m [36mc.b.forum.controller.BoardController    [0;39m [2m:[0;39m 首页版块个数为：9
+[2m2025-12-16 11:50:07[0;39m [32m INFO[0;39m [35m419994[0;39m [2m---[0;39m [2m[io-58080-exec-9][0;39m [36mc.b.forum.controller.BoardController    [0;39m [2m:[0;39m 首页版块个数为：9
+[2m2025-12-16 11:50:29[0;39m [32m INFO[0;39m [35m419994[0;39m [2m---[0;39m [2m[io-58080-exec-2][0;39m [36mc.b.forum.controller.BoardController    [0;39m [2m:[0;39m 首页版块个数为：9
+[2m2025-12-16 11:50:36[0;39m [32m INFO[0;39m [35m419994[0;39m [2m---[0;39m [2m[io-58080-exec-5][0;39m [36mc.b.forum.controller.UserController     [0;39m [2m:[0;39m 退出成功
+[2m2025-12-16 11:51:22[0;39m [32m INFO[0;39m [35m419994[0;39m [2m---[0;39m [2m[io-58080-exec-8][0;39m [36mc.b.forum.services.impl.UserServiceImpl [0;39m [2m:[0;39m 新用户成功. username = aaa. 
+[2m2025-12-16 11:51:36[0;39m [32m INFO[0;39m [35m419994[0;39m [2m---[0;39m [2m[io-58080-exec-7][0;39m [36mc.b.forum.services.impl.UserServiceImpl [0;39m [2m:[0;39m 登录成功, username = aaa
+[2m2025-12-16 11:51:38[0;39m [32m INFO[0;39m [35m419994[0;39m [2m---[0;39m [2m[io-58080-exec-7][0;39m [36mc.b.forum.controller.BoardController    [0;39m [2m:[0;39m 首页版块个数为：9
+[2m2025-12-16 11:51:52[0;39m [32m INFO[0;39m [35m419994[0;39m [2m---[0;39m [2m[io-58080-exec-3][0;39m [36mc.b.forum.controller.UserController     [0;39m [2m:[0;39m 退出成功
+[2m2025-12-16 11:51:55[0;39m [32m INFO[0;39m [35m419994[0;39m [2m---[0;39m [2m[io-58080-exec-7][0;39m [36mc.b.forum.controller.UserController     [0;39m [2m:[0;39m 退出成功
+org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.handleNoMatch(RequestMappingInfoHandlerMapping.java:256)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lookupHandlerMethod(AbstractHandlerMethodMapping.java:442)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.getHandlerInternal(AbstractHandlerMethodMapping.java:383)
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.getHandlerInternal(RequestMappingInfoHandlerMapping.java:125)
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.getHandlerInternal(RequestMappingInfoHandlerMapping.java:67)
+	at org.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler(AbstractHandlerMapping.java:498)
+	at org.springframework.web.servlet.DispatcherServlet.getHandler(DispatcherServlet.java:1265)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1047)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:964)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:670)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:779)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:96)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:891)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1784)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+[2m2025-12-16 11:52:22[0;39m [31mERROR[0;39m [35m419994[0;39m [2m---[0;39m [2m[io-58080-exec-4][0;39m [36mc.b.f.exception.GlobalExceptionHandler  [0;39m [2m:[0;39m Request method 'GET' not supported
+[2m2025-12-16 11:52:22[0;39m [33m WARN[0;39m [35m419994[0;39m [2m---[0;39m [2m[io-58080-exec-4][0;39m [36m.m.m.a.ExceptionHandlerExceptionResolver[0;39m [2m:[0;39m Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+[2m2025-12-16 11:52:51[0;39m [33m WARN[0;39m [35m419994[0;39m [2m---[0;39m [2m[io-58080-exec-1][0;39m [36mc.b.forum.services.impl.UserServiceImpl [0;39m [2m:[0;39m code = 1103, message = 用户名或密码错误. , username = vj
+com.bitejiuyeke.forum.exception.ApplicationException: 用户名或密码错误
+	at com.bitejiuyeke.forum.services.impl.UserServiceImpl.login(UserServiceImpl.java:103)
+	at com.bitejiuyeke.forum.controller.UserController.login(UserController.java:94)
+	at sun.reflect.GeneratedMethodAccessor105.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1071)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:964)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:696)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:779)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:96)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:891)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1784)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+[2m2025-12-16 11:52:51[0;39m [31mERROR[0;39m [35m419994[0;39m [2m---[0;39m [2m[io-58080-exec-1][0;39m [36mc.b.f.exception.GlobalExceptionHandler  [0;39m [2m:[0;39m 用户名或密码错误
+[2m2025-12-16 11:52:51[0;39m [33m WARN[0;39m [35m419994[0;39m [2m---[0;39m [2m[io-58080-exec-1][0;39m [36m.m.m.a.ExceptionHandlerExceptionResolver[0;39m [2m:[0;39m Resolved [com.bitejiuyeke.forum.exception.ApplicationException: 用户名或密码错误]
+[2m2025-12-16 11:52:57[0;39m [33m WARN[0;39m [35m419994[0;39m [2m---[0;39m [2m[io-58080-exec-7][0;39m [36mc.b.forum.services.impl.UserServiceImpl [0;39m [2m:[0;39m code = 1103, message = 用户名或密码错误. , username = vj
+com.bitejiuyeke.forum.exception.ApplicationException: 用户名或密码错误
+	at com.bitejiuyeke.forum.services.impl.UserServiceImpl.login(UserServiceImpl.java:103)
+	at com.bitejiuyeke.forum.controller.UserController.login(UserController.java:94)
+	at sun.reflect.GeneratedMethodAccessor105.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1071)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:964)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:696)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:779)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:96)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:891)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1784)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+[2m2025-12-16 11:52:57[0;39m [31mERROR[0;39m [35m419994[0;39m [2m---[0;39m [2m[io-58080-exec-7][0;39m [36mc.b.f.exception.GlobalExceptionHandler  [0;39m [2m:[0;39m 用户名或密码错误
+[2m2025-12-16 11:52:57[0;39m [33m WARN[0;39m [35m419994[0;39m [2m---[0;39m [2m[io-58080-exec-7][0;39m [36m.m.m.a.ExceptionHandlerExceptionResolver[0;39m [2m:[0;39m Resolved [com.bitejiuyeke.forum.exception.ApplicationException: 用户名或密码错误]
+[2m2025-12-16 11:52:58[0;39m [33m WARN[0;39m [35m419994[0;39m [2m---[0;39m [2m[o-58080-exec-10][0;39m [36mc.b.forum.services.impl.UserServiceImpl [0;39m [2m:[0;39m code = 1103, message = 用户名或密码错误. , username = vj
+com.bitejiuyeke.forum.exception.ApplicationException: 用户名或密码错误
+	at com.bitejiuyeke.forum.services.impl.UserServiceImpl.login(UserServiceImpl.java:103)
+	at com.bitejiuyeke.forum.controller.UserController.login(UserController.java:94)
+	at sun.reflect.GeneratedMethodAccessor105.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1071)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:964)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:696)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:779)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:96)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:891)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1784)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+[2m2025-12-16 11:52:58[0;39m [31mERROR[0;39m [35m419994[0;39m [2m---[0;39m [2m[o-58080-exec-10][0;39m [36mc.b.f.exception.GlobalExceptionHandler  [0;39m [2m:[0;39m 用户名或密码错误
+[2m2025-12-16 11:52:58[0;39m [33m WARN[0;39m [35m419994[0;39m [2m---[0;39m [2m[o-58080-exec-10][0;39m [36m.m.m.a.ExceptionHandlerExceptionResolver[0;39m [2m:[0;39m Resolved [com.bitejiuyeke.forum.exception.ApplicationException: 用户名或密码错误]
+[2m2025-12-16 11:53:07[0;39m [32m INFO[0;39m [35m419994[0;39m [2m---[0;39m [2m[io-58080-exec-1][0;39m [36mc.b.forum.services.impl.UserServiceImpl [0;39m [2m:[0;39m 登录成功, username = long
+[2m2025-12-16 11:53:10[0;39m [32m INFO[0;39m [35m419994[0;39m [2m---[0;39m [2m[io-58080-exec-2][0;39m [36mc.b.forum.controller.BoardController    [0;39m [2m:[0;39m 首页版块个数为：9
+[2m2025-12-16 11:53:20[0;39m [32m INFO[0;39m [35m419994[0;39m [2m---[0;39m [2m[io-58080-exec-4][0;39m [36mc.b.forum.controller.BoardController    [0;39m [2m:[0;39m 首页版块个数为：9
+[2m2025-12-16 11:53:31[0;39m [32m INFO[0;39m [35m419994[0;39m [2m---[0;39m [2m[io-58080-exec-1][0;39m [36mc.b.forum.controller.BoardController    [0;39m [2m:[0;39m 首页版块个数为：9
+[2m2025-12-16 11:53:39[0;39m [32m INFO[0;39m [35m419994[0;39m [2m---[0;39m [2m[io-58080-exec-3][0;39m [36mc.b.forum.controller.BoardController    [0;39m [2m:[0;39m 首页版块个数为：9
+[2m2025-12-16 11:55:20[0;39m [32m INFO[0;39m [35m419994[0;39m [2m---[0;39m [2m[o-58080-exec-10][0;39m [36mc.b.forum.controller.BoardController    [0;39m [2m:[0;39m 首页版块个数为：9
+[2m2025-12-16 11:55:34[0;39m [32m INFO[0;39m [35m419994[0;39m [2m---[0;39m [2m[io-58080-exec-6][0;39m [36mc.b.f.s.impl.ArticleReplyServiceImpl    [0;39m [2m:[0;39m 回复成功, article id = 13, user id = 5
+[2m2025-12-16 11:55:55[0;39m [32m INFO[0;39m [35m419994[0;39m [2m---[0;39m [2m[io-58080-exec-7][0;39m [36mc.b.forum.services.impl.UserServiceImpl [0;39m [2m:[0;39m 登录成功, username = Alora
+[2m2025-12-16 11:55:57[0;39m [32m INFO[0;39m [35m419994[0;39m [2m---[0;39m [2m[io-58080-exec-5][0;39m [36mc.b.forum.controller.BoardController    [0;39m [2m:[0;39m 首页版块个数为：9
+[2m2025-12-16 11:56:04[0;39m [32m INFO[0;39m [35m419994[0;39m [2m---[0;39m [2m[io-58080-exec-7][0;39m [36mc.b.forum.controller.BoardController    [0;39m [2m:[0;39m 首页版块个数为：9
+[2m2025-12-16 11:56:46[0;39m [32m INFO[0;39m [35m419994[0;39m [2m---[0;39m [2m[io-58080-exec-9][0;39m [36mc.b.forum.controller.BoardController    [0;39m [2m:[0;39m 首页版块个数为：9
+[2m2025-12-16 11:57:19[0;39m [32m INFO[0;39m [35m419994[0;39m [2m---[0;39m [2m[io-58080-exec-9][0;39m [36mc.b.forum.controller.BoardController    [0;39m [2m:[0;39m 首页版块个数为：9
+[2m2025-12-16 11:58:19[0;39m [32m INFO[0;39m [35m419994[0;39m [2m---[0;39m [2m[io-58080-exec-9][0;39m [36mc.b.f.services.impl.ArticleServiceImpl  [0;39m [2m:[0;39m code = 0, message = 操作成功. , user id = 5, board id = 4, article id = 17发帖成功
+org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.handleNoMatch(RequestMappingInfoHandlerMapping.java:256)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lookupHandlerMethod(AbstractHandlerMethodMapping.java:442)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.getHandlerInternal(AbstractHandlerMethodMapping.java:383)
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.getHandlerInternal(RequestMappingInfoHandlerMapping.java:125)
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.getHandlerInternal(RequestMappingInfoHandlerMapping.java:67)
+	at org.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler(AbstractHandlerMapping.java:498)
+	at org.springframework.web.servlet.DispatcherServlet.getHandler(DispatcherServlet.java:1265)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1047)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:964)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:670)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:779)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:96)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:891)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1784)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+[2m2025-12-16 11:59:08[0;39m [31mERROR[0;39m [35m419994[0;39m [2m---[0;39m [2m[io-58080-exec-6][0;39m [36mc.b.f.exception.GlobalExceptionHandler  [0;39m [2m:[0;39m Request method 'GET' not supported
+[2m2025-12-16 11:59:08[0;39m [33m WARN[0;39m [35m419994[0;39m [2m---[0;39m [2m[io-58080-exec-6][0;39m [36m.m.m.a.ExceptionHandlerExceptionResolver[0;39m [2m:[0;39m Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+[2m2025-12-16 12:11:14[0;39m [32m INFO[0;39m [35m419994[0;39m [2m---[0;39m [2m[io-58080-exec-8][0;39m [36mc.b.forum.controller.BoardController    [0;39m [2m:[0;39m 首页版块个数为：9
+org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.handleNoMatch(RequestMappingInfoHandlerMapping.java:256)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lookupHandlerMethod(AbstractHandlerMethodMapping.java:442)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.getHandlerInternal(AbstractHandlerMethodMapping.java:383)
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.getHandlerInternal(RequestMappingInfoHandlerMapping.java:125)
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.getHandlerInternal(RequestMappingInfoHandlerMapping.java:67)
+	at org.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler(AbstractHandlerMapping.java:498)
+	at org.springframework.web.servlet.DispatcherServlet.getHandler(DispatcherServlet.java:1265)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1047)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:964)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:670)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:779)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:96)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:891)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1784)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+[2m2025-12-16 13:16:12[0;39m [31mERROR[0;39m [35m419994[0;39m [2m---[0;39m [2m[io-58080-exec-1][0;39m [36mc.b.f.exception.GlobalExceptionHandler  [0;39m [2m:[0;39m Request method 'GET' not supported
+[2m2025-12-16 13:16:12[0;39m [33m WARN[0;39m [35m419994[0;39m [2m---[0;39m [2m[io-58080-exec-1][0;39m [36m.m.m.a.ExceptionHandlerExceptionResolver[0;39m [2m:[0;39m Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+[2m2025-12-16 13:22:07[0;39m [32m INFO[0;39m [35m419994[0;39m [2m---[0;39m [2m[ionShutdownHook][0;39m [36mcom.alibaba.druid.pool.DruidDataSource  [0;39m [2m:[0;39m {dataSource-1} closing ...
+[2m2025-12-16 13:22:07[0;39m [32m INFO[0;39m [35m419994[0;39m [2m---[0;39m [2m[ionShutdownHook][0;39m [36mcom.alibaba.druid.pool.DruidDataSource  [0;39m [2m:[0;39m {dataSource-1} closed
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  19:54 h
+[INFO] Finished at: 2025-12-16T13:22:08+08:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.springframework.boot:spring-boot-maven-plugin:2.7.6:run (default-cli) on project forum: Application finished with exit code: 143 -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
