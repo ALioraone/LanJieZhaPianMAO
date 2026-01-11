@@ -1,5 +1,6 @@
 package com.bitejiuyeke.forum.common;
 
+
 public enum ResultCode {
     SUCCESS                     (0, "操作成功"),
     FAILED                      (1000, "操作失败"),
@@ -9,7 +10,7 @@ public enum ResultCode {
     FAILED_CREATE               (1004, "新增失败"),
     FAILED_NOT_EXISTS           (1005, "资源不存在"),
 
-    // 关于用户的错误描述
+    // 关于用户的错误描述001
     FAILED_USER_EXISTS          (1101, "用户已存在"),
     FAILED_USER_NOT_EXISTS      (1102, "用户不存在"),
     FAILED_LOGIN                (1103, "用户名或密码错误"),
